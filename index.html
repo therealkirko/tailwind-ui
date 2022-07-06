@@ -1,0 +1,49 @@
+<!-- https://dribbble.com/shots/16876032-Podfasts-Dashboard-Layouts/attachments/11938870?mode=media -->
+<!DOCTYPE html>
+<html lang="en" class="font-roboto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Podcaster</title>
+</head>
+<body class="bg-slate-100">
+    <div class="layout">
+        <header class="relative container mx-auto p-4">
+            <div class="flex items-center justify-between">
+                <div class="pt-2">
+                    <h4 class="text-decoration-thickness: 6px text-xl font semi-bold">Podcaster</h4>
+                </div>
+                <div class="hidden md:flex pt-2 space-x-6">
+                    <a href="#" class="text-slate-500 hover:text-slate-900">Dashboard</a>
+                    <a href="#" class="text-slate-500 hover:text-slate-900">Explore</a>
+                    <a href="#" class="text-slate-500 hover:text-slate-900">Episodes</a>
+                    <a href="#" class="text-slate-500 hover:text-slate-900">Analyics</a>
+                </div>
+                <a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-sky-500/100 rounded-full baseline hover:bg-sky-400/100">
+                    Get Started
+                </a>
+            </div>
+        </header>
+        <!-- User greeting/Welcome -->
+        <section id="greeting">
+            <div class="container p-4 flex flex-col items-start pt-6 mx-auto mt-10 space-y-0 md:space-y-0">
+                <h3 class="text-decoration-thickness: 5px text-2xl text-slate-600 font-semibold">Hi, Jordan</h3>
+                <p class="text-slate-600">Here's what's happening with your podcast today.</p>
+            </div>
+        </section>
+        <div class="container p-4 relative pt-4 space-x-6 items-center mx-auto grid md:grid-cols-3 md:grid-cols-3 gap-3">
+            <div class="flex-col col-span-2 h-64 rounded-[5px] bg-white">
+                <div class="flex items-center justify-between p-4">
+                    <h4 class="text-slate-600">Plays</h4>
+                    <h6 class="text-slate-400">Last 7 days</h6>
+                </div>
+            </div>
+            <div class="hidden md:flex flex-col p-8 rounded-[4px] bg-white">
+                <h1>Statistics</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
